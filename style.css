@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #f0f4f5;
+    /* overflow: hidden; */
+    margin: auto;
+  }
+
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  li{
+    list-style: none;
+    cursor: pointer;
+  }
+  ul{
+    display: flex;
+    align-items: center;
+    column-gap: 68px;
+    font-weight: 800;
+    font-size: 18px;
+  }
+  a:hover{
+    color: #20bc7e;
+  }
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 80px;
+  }
+
+  .left_side{
+    position: absolute;
+    left: 82px;
+  }
+  .button{
+    background-color: #20bc7e;
+    font-size: 25px;
+    font-weight: 900;
+    padding: 14px 37px;
+    border: none;
+    border-radius: 32px;
+    color: #fff;
+
+  }
+
+ /* right side */
+ 
+ .div{
+    background-color: red;
+ }
