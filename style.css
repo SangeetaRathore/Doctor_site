@@ -34,26 +34,74 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 80px;
+    padding: 35px 63px  35px  10px;
   }
 
   .left_side{
     position: absolute;
     left: 82px;
   }
-  .button{
+  button {
     background-color: #20bc7e;
-    font-size: 25px;
+    font-size: 32px;
     font-weight: 900;
-    padding: 14px 37px;
+    padding: 18px 68px;
     border: none;
-    border-radius: 32px;
+    border-radius: 52px;
     color: #fff;
-
   }
 
  /* right side */
  
- .div{
-    background-color: red;
+ .stethoscope{
+  position: absolute;
+  top: -79px;
+  left: 260px;
+  width: 680px;
+  height: 700px;
  }
+ .mouse{
+  position: absolute;
+  bottom: ;
+  right: ;
+ }
+
+ .bottomangle{
+  position: absolute;
+  bottom: 10px;
+  right:0px;
+ }
+
+ .greenbox{
+  width: 500px;
+  position: absolute;
+  right: 60px;
+  top: 200px;
+ }
+
+ .yellowbox {
+  width: 440px;
+  position: absolute;
+  right: 37px;
+  top: 241px;
+  z-index: 200;
+}
+.doctor {
+  width: 491px;
+  height: 695px;
+  position: absolute;
+  right: 68px;
+  top: 88px;
+  z-index: 200;
+}
+h1{
+  font-size: 85px;
+  font-weight: 900;
+}
+p {
+  color: #999393;
+  font-size: 22px;
+  font-weight: 400;
+  margin: 50px 0px;
+  letter-spacing: 0.2px;
+}
