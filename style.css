@@ -8,7 +8,7 @@
 body {
     max-width: 1440px;
     background-color: #f0f4f5;
-    /* overflow: hidden; */
+    overflow: hidden;
     margin: auto;
   }
 
@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px 63px  35px  10px;
+    padding: 35px 63px  35px  3px;
   }
 
   .left_side{
@@ -58,31 +58,33 @@ body {
   top: -79px;
   left: 260px;
   width: 680px;
-  height: 700px;
+  height: 730px;
  }
  .mouse{
   position: absolute;
-  bottom: ;
-  right: ;
+  bottom: 9px;
+  left: 760px ;
+  width: 43px;
  }
 
  .bottomangle{
   position: absolute;
-  bottom: 10px;
-  right:0px;
+  bottom: 60px;
+  right: 6px;
+  width: 30px;
  }
 
  .greenbox{
   width: 500px;
   position: absolute;
-  right: 60px;
+  right: 28px;
   top: 200px;
  }
 
  .yellowbox {
   width: 440px;
   position: absolute;
-  right: 37px;
+  right: 6px;
   top: 241px;
   z-index: 200;
 }
@@ -90,7 +92,7 @@ body {
   width: 491px;
   height: 695px;
   position: absolute;
-  right: 68px;
+  right: 36px;
   top: 88px;
   z-index: 200;
 }
