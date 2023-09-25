@@ -23,6 +23,10 @@ body {
     color: black;
   }
 
+  a:hover{
+    color: #20bc7e;
+  }
+
   li{
     list-style: none;
     cursor: pointer;
@@ -35,50 +39,55 @@ body {
     font-weight: 800;
     font-size: 18px;
 }
-a:hover{
-  color: #20bc7e;
-}
 
-/* main CSS */
-main{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+/* main */
 .contener{
-  width: 508px;
-  height: 500px;
   display: flex;
-  justify-content: center;
   align-items: center;
-  flex-direction: column;
-  row-gap: 30px;
-}
-p{
-  text-align: center;
-  font-size: 14px;
-  font-weight: 400;
-}
-.bottom_line{
-  display: flex;
   justify-content: center;
-  align-items: center;
-  column-gap: 30px;
+  margin-top: 100px;
+ 
 }
 .box{
-  width: 131px;
-  height: 68px;
-  box-shadow: 0px 0px 3px 4px #aea8a8;
-  text-align: center;
-  padding:12px 0px 66px; 
-  font-size: 20px;
+ padding: 29px;
+ line-height: 28px;
+ border-radius: 13px;
+ box-shadow:  0px 0px 3px 4px #908d8d;
+ border: none;
+} 
+
+label{
   font-weight: 700;
-  color: #20bc7e;
-  border-radius: 9px;
+  font-size: 16px;
+}
+
+.input{
+  width: 260px;
+  height: 32px;
+  border-radius: 14px;
+  border: none;
 }
 h1{
-  color: #20bc7e;
-  font-size: 26px;
-  font-weight: 900;
   text-align: center;
+  padding-bottom: 25px;
+}
+.textarea{
+  width: 260px;
+  height: 100px;
+  border-radius: 8px;
+  border: none;
+  padding-bottom: 60px;
+  
+}
+button{
+  color: #fff;
+  background-color: #20bc7e;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 8px 94px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 15px;
+  
 }

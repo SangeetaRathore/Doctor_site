@@ -16,10 +16,12 @@ body {
     text-decoration: none;
     color: black;
   }
+
   li{
     list-style: none;
     cursor: pointer;
   }
+
   ul{
     display: flex;
     align-items: center;
@@ -27,6 +29,7 @@ body {
     font-weight: 800;
     font-size: 18px;
   }
+  
   a:hover{
     color: #20bc7e;
   }
